@@ -4,7 +4,7 @@ collection: teaching
 type: "High school"
 permalink: /teaching/2014-spring-teaching-1
 venue: "AddisCoder"
-date: 2019 & 2023
+date: 2019-07-12
 location: "Addis Ababa, Ethiopia"
 ---
 
