@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
+type: "High school"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "AddisCoder"
+date: 2019 & 2023
+location: "Addis Ababa, Ethiopia"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I spent the summer helping top performing high school students from all over Ethiopia solidify their programming and algorithms skills in a lab setting. More about AddisCoder [here](addiscoder.com)
 
 Heading 1
 ======
