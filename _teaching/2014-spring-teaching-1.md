@@ -8,13 +8,4 @@ date: 2019-07-12
 location: "Addis Ababa, Ethiopia"
 ---
 
-I spent the summer helping top performing high school students from all over Ethiopia solidify their programming and algorithms skills in a lab setting. More about AddisCoder [here](addiscoder.com)
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+I spent the summer helping top performing high school students from all over Ethiopia solidify their programming and algorithms skills in a lab setting. More about AddisCoder [here](https://addiscoder.com)
