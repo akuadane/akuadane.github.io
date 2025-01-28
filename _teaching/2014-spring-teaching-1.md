@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "High school"
+type: "Summer camp"
 permalink: /teaching/2014-spring-teaching-1
 venue: "AddisCoder"
 date: 2019-07-12

@@ -1,7 +1,7 @@
 ---
 title: "Assistant Lecturer"
 collection: teaching
-type: "Undergrad"
+type: "Undergrad course"
 permalink: /teaching/2015-spring-teaching-1
 venue: "Addis Ababa University, SITE"
 date: 2023-06-01
