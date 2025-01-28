@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Assistant Lecturer"
 collection: teaching
-type: "Workshop"
+type: "Undergrad"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Addis Ababa University, SITE"
+date: 2023-06-01
+location: "Addis Ababa University"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+I taught an Intro to Programming course to undergrads at Addis Ababa University, Addis Ababa Institute of Technology. The goal of the course was to introduce students to Python, data structures and make them comfortable to write and execute Python code.
