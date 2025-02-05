@@ -18,7 +18,7 @@ Work experience
 ======
 * August 2024 - Present: Research Assistant
   * Fordham University
-  * Duties includes: Working on utilizing Large Language Models(LLMs) for medical purposes, currenlty fine-tuning LLMs to predict Multiple Sclerosis.
+  * Duties includes: Working on utilizing Large Language Models(LLMs) for medical purposes, currenlty fine-tuning LLMs, and combining them with other traditional machine learning models to predict Multiple Sclerosis.
   * Supervisor: Dr. [Yijun Zhao](https://storm.cis.fordham.edu/~yzhao/)
 
 * Sepember 2022 - August 2024: Software Engineer
@@ -31,6 +31,7 @@ Skills
   * PyTorch
   * Scikit-learn
 * Java
+* SQL
 * Hadoop
 * Tableau
 
