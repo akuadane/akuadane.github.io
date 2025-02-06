@@ -16,24 +16,32 @@ Education
 
 Work experience
 ======
-* August 2024 - Present: Research Assistant
+* August 2024 - Present: **Research Assistant**
   * Fordham University
   * Duties includes: Working on utilizing Large Language Models(LLMs) for medical purposes, currently fine-tuning LLMs, and combining them with other traditional machine learning models to predict Multiple Sclerosis relapse.
   * Supervisor: Dr. [Yijun Zhao](https://storm.cis.fordham.edu/~yzhao/)
 
-* Sepember 2022 - August 2024: Software Engineer
+* Sepember 2022 - August 2024: **Software Engineer**
   * Turing Inc.
   * Duties included: Contributed to OpenAI's ChatGPT project, specifically on generating datasets for training the 'code interpreter' feature.
 
+Other experience
+======
+* January 2025 - Present: **BCG Data Science Job Simulation**
+  * Forage
+  * Duties includes: Worked on a Data Science job simulation by BCG. It included the Data Science cycles of Business Understanding & Hypothesis Framing,Exploratory Data Analysis, Feature Engineering & Modelling, Findings & Recommendations.
+
 Skills
 ======
-* Python
-  * PyTorch
-  * Scikit-learn
-* Java
-* SQL
-* Hadoop
-* Tableau
+#### Programming Languages
+- Python (PyTorch, Scikit-learn, Pandas, Django)
+- Java
+- SQL
+
+#### Others
+- Hadoop
+- Tableau
+- Unix
 
 Publications
 ======

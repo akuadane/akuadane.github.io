@@ -17,7 +17,7 @@ Outside of class, I like to cook 🍛, drink coffee ☕️, hike ⛰ and hang ou
 ## News
 
 - Aug, 2024 - 📚 Started my MS Data Science at Fordham University.
-- August, 2023 - 👨‍🏫 Taught Introduction to Programming with Python for Undergrads at Addis Ababa University.
+- August, 2023 - 👨‍🏫 Taught Introduction to Programming with Python for undergrads at Addis Ababa University.
 - July, 2023 - 👨‍🏫 TA'ed for [Addicoder](https://addiscoder.com).
 - May, 2023 - 📚 Accepted to Udacity's Machine Learning Fundamentals with AWS Scholarship worth $5000.
 - Dec, 2022 - 📄 Published our paper on [Machine Learning Bloats and vulnerability](https://arxiv.org/abs/2212.09437).
