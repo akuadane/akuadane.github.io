@@ -33,12 +33,12 @@ Other experience
 
 Skills
 ======
-#### Programming Languages
+### Programming Languages
 - Python (PyTorch, Scikit-learn, Pandas, Django)
 - Java
 - SQL
 
-#### Others
+### Others
 - Hadoop
 - Tableau
 - Unix
