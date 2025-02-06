@@ -1,6 +1,6 @@
 ---
 title: "Depth-First and Breadth-First Search visualization"
-excerpt: "Simulation of DFS and BFS <img src='./images/500x300.png'>"
+excerpt: "Simulation of DFS and BFS <img src='../images/demo.gif'>"
 collection: portfolio
 ---
 
