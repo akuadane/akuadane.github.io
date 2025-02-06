@@ -10,10 +10,10 @@ Hi,
 I am a master’s student pursuing data science at Fordham University. Prior to this, I worked at Turing as a consultant software engineer for OpenAI. As an aspiring data scientist with a background in software engineering, I’m interested in utilizing machine learning and data analysis tools to provide solutions 🪛.
 
 
+Outside of class, I like to cook 🍛, drink coffee ☕️, hike ⛰ and hang out with friends.
 
 
-
-
+## News
 
 
 
