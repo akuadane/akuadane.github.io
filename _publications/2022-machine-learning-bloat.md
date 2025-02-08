@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Systems are Bloated and Vulnerable"
 collection: publications
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2022-machine-learning-bloat
 excerpt: 'Today's software is bloated with both code and features that are not used by most users.'
 date: 2022-12-01
 venue: 'ACMSigmetrics'
