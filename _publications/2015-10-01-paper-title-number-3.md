@@ -1,15 +1,9 @@
 ---
-title: "Machine Learning Systems are Bloated and Vulnerable"
+title: "DyGraph: a dynamic graph generator and benchmark suite."
 collection: publications
-category: manuscripts
-permalink: /publication/2022-machine-learning-bloat
-excerpt: 'Today's software is bloated with both code and features that are not used by most users.'
-date: 2022-12-01
-venue: 'ACMSigmetrics'
-slidesurl: 'https://arxiv.org/pdf/2212.09437.pdf'
-paperurl: 'https://arxiv.org/pdf/2212.09437.pdf'
-citation: 'Huaifeng Zhang, Fahmi Abdulqadir Ahmed, Dyako Fatih, Akayou Kitessa, Mohannad Alhanahnah, Philipp Leitner, Ahmed Ali-Eldin
- (2022) Machine Learning Systems are Bloated and Vulnerable'
+permalink: /publication/2022-dygraph-sigmod
+date: 2022-06-12
+venue: 'Proceedings of the 5th ACM SIGMOD Joint International Workshop on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA).'
+paperurl: 'https://doi.org/10.1145/3534540.3534692'
+citation: 'Andrew McCrabb, **Hellina Nigatu**, Absalat Getachew, Valeria Bertacco. (2022). &quot;DyGraph: a dynamic graph generator and benchmark suite.&quot; <i>Proceedings of the 5th ACM SIGMOD Joint International Workshop on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA).</i>'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
