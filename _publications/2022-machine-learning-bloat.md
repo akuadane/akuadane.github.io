@@ -6,8 +6,8 @@ permalink: /publication/2022-machine-learning-bloat
 excerpt: 'Today's software is bloated with both code and features that are not used by most users.'
 date: 2022-12-01
 venue: 'ACMSigmetrics'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://arxiv.org/abs/2212.09437'
+slidesurl: 'https://arxiv.org/pdf/2212.09437.pdf'
+paperurl: 'https://arxiv.org/pdf/2212.09437.pdf'
 citation: 'Huaifeng Zhang, Fahmi Abdulqadir Ahmed, Dyako Fatih, Akayou Kitessa, Mohannad Alhanahnah, Philipp Leitner, Ahmed Ali-Eldin
  (2022) Machine Learning Systems are Bloated and Vulnerable'
 ---
