@@ -24,6 +24,8 @@ Outside of class, I like to cook 🍛, drink coffee ☕️, hike ⛰ and hang ou
 - Sep, 2022 - 💻 Joined Turing as a software engineer.
 - May, 2022 - 👨‍🔬 Accepted to [Fatima Fellowship](https://www.fatimafellowship.com) and worked on Debloating Machine Learning Sytstems.
 - May, 2022 - 📚 Accepted to Udacity's AI Programming with Python with AWS Scholarship worth $5000.
+- Aug, 2021 - 📚 Started my exchange semester at Boise State University.
+- May, 2021 - 📚 Won $26,000 in scholarship from the US Department of States to attend Boise State University as an exchange student.
 
 
 
