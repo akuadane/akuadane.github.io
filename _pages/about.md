@@ -16,6 +16,7 @@ Outside of class, I like to cook 🍛, drink coffee ☕️, hike ⛰ and hang ou
 
 ## News
 
+- Jul, 2025 - 🐧 Contributed to LangChain.js doc website to follow user's computer theme. [Link to pull request](https://github.com/langchain-ai/langchainjs/pull/8466)
 - Aug, 2024 - 📚 Started my MS Data Science at Fordham University.
 - August, 2023 - 👨‍🏫 Taught Introduction to Programming with Python for undergrads at Addis Ababa University.
 - July, 2023 - 👨‍🏫 TA'ed for [Addicoder](https://addiscoder.com).
