@@ -15,8 +15,8 @@ Outside of class, I like to cook 🍛, drink coffee ☕️, hike ⛰ and hang ou
 
 
 ## News
-
-- Jul, 2025 - 🐧 Contributed to LangChain.js doc website to follow user's computer theme. [Link to pull request](https://github.com/langchain-ai/langchainjs/pull/8466)
+- Aug, 2025 - 🤖 My [Python Interpreter] (https://akuadane.github.io/portfolio/python-interpreter/) project went live on Docker. [Merged pull request](https://github.com/docker/mcp-registry/pull/144), [Download it here](https://hub.docker.com/mcp/server/mcp-code-interpreter/overview)
+- Jul, 2025 - 🐧 Contributed to LangChain.js doc website to follow user's computer theme. [Merged pull request](https://github.com/langchain-ai/langchainjs/pull/8466)
 - Aug, 2024 - 📚 Started my MS Data Science at Fordham University.
 - August, 2023 - 👨‍🏫 Taught Introduction to Programming with Python for undergrads at Addis Ababa University.
 - July, 2023 - 👨‍🏫 TA'ed for [Addicoder](https://addiscoder.com).
