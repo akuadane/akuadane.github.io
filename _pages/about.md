@@ -32,4 +32,4 @@ Outside of class, I like to cook 🍛, drink coffee ☕️, hike ⛰ and hang ou
 
 
 
-This website template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose. The conent design was inspired by Hellina Nigatu.
+This website template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose. The content design was inspired from Hellina Nigatu.
