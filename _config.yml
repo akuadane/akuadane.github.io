@@ -21,7 +21,7 @@ repository               : "https://akuadane.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.JPG"
+  avatar           : "me.png"
   name             : "Akayou A. Kitessa"
   pronouns         : # example: "she/her"  
   bio              : "MS Data Science at Fordham."
