@@ -1,0 +1,44 @@
+/* Custom Portfolio Styling */
+
+/* Fix grid layout for portfolio items */
+.grid__item {
+  @include breakpoint($medium) {
+    /* Change from 2.5 of 10 (4 columns) to 3 of 12 (4 columns) for better spacing */
+    @include gallery(3 of 12);
+    
+    .archive__item-teaser {
+      /* Increase max-height from 120px to 250px for bigger images */
+      max-height: 250px;
+    }
+  }
+  
+  @include breakpoint($small) {
+    /* Keep 2 columns on small screens for better mobile experience */
+    @include gallery(6 of 12);
+    
+    .archive__item-teaser {
+      /* Increase max-height from 200px to 300px for bigger images */
+      max-height: 300px;
+    }
+  }
+  
+  /* Ensure images maintain aspect ratio and look good */
+  .archive__item-teaser {
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+/* Additional styling for better portfolio presentation */
+.archive__item-title {
+  margin-top: 0.75em;
+  font-size: $type-size-4; /* Slightly larger title */
+}
+
+.archive__item-excerpt {
+  font-size: $type-size-5; /* Slightly larger excerpt text */
+  line-height: 1.4;
+}
