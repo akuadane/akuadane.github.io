@@ -11,29 +11,23 @@ redirect_from:
 
 ## Skills
 
-### Languages
-- Python, Java, TypeScript, JavaScript, HTML5, CSS3, SQL
+**Languages:** Python, Java, TypeScript, JavaScript, HTML5, CSS3, SQL
 
-### Backend Frameworks
-- Django, Flask, Express.js, Next.js
+**Backend Frameworks:** Django, Flask, Express.js, Next.js
 
-### Front-end Frameworks
-- React, Angular, Bootstrap
+**Front-end Frameworks:** React, Angular, Bootstrap
 
-### Machine Learning
-- PyTorch, Scikit-learn
+**Machine Learning:** PyTorch, Scikit-learn
 
-### Data & Analytics
-- Postgres, MongoDB, Pandas
+**Data & Analytics:** Postgres, MongoDB, Pandas
 
-### Cloud
-- AWS (EC2, S3, Lambda), Docker, Linux, Bash scripts
+**Cloud:** AWS (EC2, S3, Lambda), Docker, Linux, Bash scripts
 
 ## Experience
 
 **Research Assistant** | Fordham University | New York, US | Aug 2024 – Present
 - Optimized Large Language Models (LLMs) on a limited dataset to predict Multiple Sclerosis relapses, leveraging pre-training to overcome data scarcity and improve early diagnosis accuracy
-- Improved predictive performance by integrating LLMs with traditional Machine Learning (ML) models (Logistic Regression, KNN, XGBoost) to achieve a 0.69 ROC AUC score
+- Improved predictive performance by finetuning LLMs to achieve a good balance of 80% positive relapse detection rate and 0.69 ROC AUC score
 - Developed an API using Django to enable seamless testing of third-party ML models on a proprietary patient dataset
 - Paper accepted to the IEEE International Conference on Data Mining 2025
 - Supervisor: Dr. [Yijun Zhao](https://storm.cis.fordham.edu/~yzhao/)
@@ -67,8 +61,3 @@ redirect_from:
 
 **Addis Ababa University** | Addis Ababa, Ethiopia | Sep 2017 – Jul 2022
 - Bachelor of Science in Software Engineering | GPA: 3.88
-
-## Teaching
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
