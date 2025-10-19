@@ -56,8 +56,8 @@ redirect_from:
 
 ## Education
 
-**Fordham University** | New York, US | Aug 2024 – May 2026
-- Master of Science in Data Science | GPA: 4.0
+**Fordham University** - New York, US (Aug 2024 – May 2026)
+- Master of Science in Data Science - GPA: 4.0
 
-**Addis Ababa University** | Addis Ababa, Ethiopia | Sep 2017 – Jul 2022
-- Bachelor of Science in Software Engineering | GPA: 3.88
+**Addis Ababa University** - Addis Ababa, Ethiopia (Sep 2017 – Jul 2022)
+- Bachelor of Science in Software Engineering - GPA: 3.88
