@@ -68,9 +68,11 @@
 
 .archive__item-teaser {
   border-radius: $border-radius;
-  overflow: hidden;
+  overflow: visible;
   img {
     width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 }
 
@@ -131,7 +133,13 @@
   @include breakpoint($small) {
     @include gallery(6 of 12);
     .archive__item-teaser {
-      max-height: 300px;
+      max-height: none;
+      overflow: visible;
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
     }
   }
 
@@ -141,7 +149,13 @@
     @include gallery(6 of 12);
 
     .archive__item-teaser {
-      max-height: 250px;
+      max-height: none;
+      overflow: visible;
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
     }
 
     .archive__item-excerpt {
