@@ -131,10 +131,13 @@
   }
 
   @include breakpoint($small) {
-    @include gallery(6 of 12);
+    @include full();
+    display: flex;
+    flex-direction: column;
+    
     .archive__item-teaser {
-      max-height: none;
-      overflow: visible;
+      max-width: 300px;
+      margin: 0 auto 1em;
       img {
         width: 100%;
         height: auto;
@@ -144,18 +147,30 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
-    @include gallery(6 of 12);
+    margin-left: 0;
+    margin-right: 0;
+    @include full();
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2em;
 
     .archive__item-teaser {
-      max-height: none;
-      overflow: visible;
+      flex: 0 0 300px;
+      max-width: 300px;
       img {
         width: 100%;
         height: auto;
         object-fit: contain;
       }
+    }
+
+    .archive__item-body {
+      flex: 1;
+    }
+
+    .archive__item-title {
+      margin-top: 0;
     }
 
     .archive__item-excerpt {
