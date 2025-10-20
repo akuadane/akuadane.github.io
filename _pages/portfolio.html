@@ -7,65 +7,139 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.portfolio-link {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block !important;
+  transition: all 0.3s ease !important;
+  border-radius: 8px !important;
+  padding: 1em !important;
+  margin: -1em !important;
+}
+
+.portfolio-link:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.portfolio-item .archive__item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 2em !important;
+}
+
+.portfolio-item .archive__item-teaser {
+  flex: 0 0 300px !important;
+  max-width: 300px !important;
+  margin: 0 !important;
+}
+
+.portfolio-item .archive__item-teaser img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.portfolio-item .archive__item-body {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+}
+
+.portfolio-item .archive__item-title {
+  margin-top: 0 !important;
+  margin-bottom: 0.5em !important;
+}
+
+.portfolio-item .archive__item-excerpt {
+  display: block !important;
+  font-size: 1.1em !important;
+  margin-bottom: 1em !important;
+  font-weight: 600 !important;
+  color: #666 !important;
+}
+
+@media (max-width: 768px) {
+  .portfolio-item .archive__item {
+    flex-direction: column !important;
+    gap: 1em !important;
+  }
+  
+  .portfolio-item .archive__item-teaser {
+    flex: none !important;
+    max-width: 100% !important;
+    margin: 0 auto 1em !important;
+  }
+}
+</style>
+
 <div class="portfolio-container">
   <!-- Checkers AI Project -->
-  <div class="grid__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <div class="archive__item-teaser">
-        <img src="https://akuadane.github.io/images/checkboard.webp" alt="Checkers AI Game Board">
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title" itemprop="headline">Checkers AI</h2>
-        <p class="archive__item-excerpt" itemprop="description">Created AI agents that play checkers.</p>
-        <p>Checkers AI focuses on optimizing already existing algorithms, minimax, and alpha pruning, and also coming up with different heuristics to improve our performance. In addition use Reinforcement Learning to improve certain cases such as end-game(when only a few pieces are left). This has benefits that it could be tailored to apply in many similar Reinforced AI applications directly or indirectly.</p>
-        <p><a href="https://github.com/akuadane/Checkers-AI" target="_blank">Github</a></p>
-      </div>
-    </article>
+  <div class="grid__item portfolio-item">
+    <a href="https://github.com/akuadane/Checkers-AI" target="_blank" class="portfolio-link">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="archive__item-teaser">
+          <img src="https://akuadane.github.io/images/checkboard.webp" alt="Checkers AI Game Board">
+        </div>
+        <div class="archive__item-body">
+          <h2 class="archive__item-title" itemprop="headline">Checkers AI</h2>
+          <p class="archive__item-excerpt" itemprop="description">Created AI agents that play checkers.</p>
+          <p>Checkers AI focuses on optimizing already existing algorithms, minimax, and alpha pruning, and also coming up with different heuristics to improve our performance. In addition use Reinforcement Learning to improve certain cases such as end-game(when only a few pieces are left). This has benefits that it could be tailored to apply in many similar Reinforced AI applications directly or indirectly.</p>
+        </div>
+      </article>
+    </a>
   </div>
 
   <!-- DFS/BFS Visualization Project -->
-  <div class="grid__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <div class="archive__item-teaser">
-        <img src="https://raw.githubusercontent.com/akuadane/site/refs/heads/master/images/demo.gif" alt="DFS and BFS Algorithm Visualization">
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title" itemprop="headline">Depth-First and Breadth-First Search visualization</h2>
-        <p class="archive__item-excerpt" itemprop="description">Visualization of DFS and BFS</p>
-        <p>This project visualizes how Depth-first and Breadth-first search work. In addition, it implements DFS with hashtables to remember dead-ends.</p>
-        <p><a href="https://github.com/akuadane/DFS-BFS-Visualization-with-processing" target="_blank">Github</a></p>
-      </div>
-    </article>
+  <div class="grid__item portfolio-item">
+    <a href="https://github.com/akuadane/DFS-BFS-Visualization-with-processing" target="_blank" class="portfolio-link">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="archive__item-teaser">
+          <img src="https://raw.githubusercontent.com/akuadane/site/refs/heads/master/images/demo.gif" alt="DFS and BFS Algorithm Visualization">
+        </div>
+        <div class="archive__item-body">
+          <h2 class="archive__item-title" itemprop="headline">Depth-First and Breadth-First Search visualization</h2>
+          <p class="archive__item-excerpt" itemprop="description">Visualization of DFS and BFS</p>
+          <p>This project visualizes how Depth-first and Breadth-first search work. In addition, it implements DFS with hashtables to remember dead-ends.</p>
+        </div>
+      </article>
+    </a>
   </div>
 
   <!-- Diabetes Prediction Project -->
-  <div class="grid__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <div class="archive__item-teaser">
-        <img src="https://raw.githubusercontent.com/akuadane/site/refs/heads/master/images/diabetes-prediction-dashboard.png" alt="Diabetes Prediction Dashboard">
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title" itemprop="headline">Predicting Diabetes Using Classification Algorithms</h2>
-        <p class="archive__item-excerpt" itemprop="description">Using Machine Learning models & Synthetic Dataset generation to predict Diabetes</p>
-        <p>Our advanced diabetes prediction model leverages an ensemble of powerful classification algorithms—Random Forest, XGBoost, Logistic Regression, and K-Nearest Neighbors (KNN). By combining the strengths of these diverse models, we enhance predictive accuracy and reliability, transforming weak learners into a robust diagnostic tool. This approach ensures more precise risk assessment, aiding early detection and proactive healthcare decisions. Explore how AI is revolutionizing diabetes prediction and empowering better health outcomes.</p>
-        <p><a href="https://colab.research.google.com/drive/186oHLGAGX--0xAKg-yKMtS1DiLglSYdg?usp=sharing" target="_blank">Google Colab</a></p>
-      </div>
-    </article>
+  <div class="grid__item portfolio-item">
+    <a href="https://colab.research.google.com/drive/186oHLGAGX--0xAKg-yKMtS1DiLglSYdg?usp=sharing" target="_blank" class="portfolio-link">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="archive__item-teaser">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRjVGNUY1Ii8+CjxyZWN0IHg9IjIwIiB5PSIyMCIgd2lkdGg9IjI2MCIgaGVpZ2h0PSIxNjAiIGZpbGw9IndoaXRlIiBzdHJva2U9IiNEOUQ5RDkiIHN0cm9rZS13aWR0aD0iMiIvPgo8dGV4dCB4PSI1MCIgeT0iNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+TW9kZWwgQWNjdXJhY3k6IDk0LjUlPC90ZXh0Pgo8dGV4dCB4PSI1MCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+UHJlY2lzaW9uOiA5Mi4zJTwvdGV4dD4KPHRleHQgeD0iNTAiIHk9IjgwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiMzMzMiPlJlY2FsbDogOTUuOCU8L3RleHQ+Cjx0ZXh0IHg9IjUwIiB5PSIxMDAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+RjEtU2NvcmU6IDk0LjAlPC90ZXh0Pgo8Y2lyY2xlIGN4PSIyMzAiIGN5PSI3MCIgcj0iMzAiIGZpbGw9IiM0Q0FGNTUiLz4KPHRleHQgeD0iMjE1IiB5PSI3NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSI+QUk8L3RleHQ+Cjx0ZXh0IHg9IjUwIiB5PSIxNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzY2NiI+RGlhYmV0ZXMgUHJlZGljdGlvbiBEYXNoYm9hcmQ8L3RleHQ+Cjwvc3ZnPgo=" alt="Diabetes Prediction Dashboard">
+        </div>
+        <div class="archive__item-body">
+          <h2 class="archive__item-title" itemprop="headline">Predicting Diabetes Using Classification Algorithms</h2>
+          <p class="archive__item-excerpt" itemprop="description">Using Machine Learning models & Synthetic Dataset generation to predict Diabetes</p>
+          <p>Our advanced diabetes prediction model leverages an ensemble of powerful classification algorithms—Random Forest, XGBoost, Logistic Regression, and K-Nearest Neighbors (KNN). By combining the strengths of these diverse models, we enhance predictive accuracy and reliability, transforming weak learners into a robust diagnostic tool. This approach ensures more precise risk assessment, aiding early detection and proactive healthcare decisions. Explore how AI is revolutionizing diabetes prediction and empowering better health outcomes.</p>
+        </div>
+      </article>
+    </a>
   </div>
 
   <!-- Python Interpreter Project -->
-  <div class="grid__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <div class="archive__item-teaser">
-        <img src="https://raw.githubusercontent.com/akuadane/mcp-code-interpreter/refs/heads/main/asset/logo.png" alt="Python Interpreter Logo">
-      </div>
-      <div class="archive__item-body">
-        <h2 class="archive__item-title" itemprop="headline">Python Interpreter</h2>
-        <p class="archive__item-excerpt" itemprop="description">An mcp server Python-based execution tool that mimics a Jupyter notebook environment</p>
-        <p>An mcp server Python-based execution tool that mimics a Jupyter notebook environment. It accepts code snippets, executes them, and maintains state across sessions — preserving variables, imports, and past results. Ideal for iterative development, debugging, or code execution.</p>
-        <p><a href="https://github.com/akuadane/mcp-code-interpreter" target="_blank">Github</a> | <a href="https://hub.docker.com/mcp/server/mcp-code-interpreter/tools" target="_blank">Docker Hub</a></p>
-      </div>
-    </article>
+  <div class="grid__item portfolio-item">
+    <a href="https://github.com/akuadane/mcp-code-interpreter" target="_blank" class="portfolio-link">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="archive__item-teaser">
+          <img src="https://raw.githubusercontent.com/akuadane/mcp-code-interpreter/refs/heads/main/asset/logo.png" alt="Python Interpreter Logo">
+        </div>
+        <div class="archive__item-body">
+          <h2 class="archive__item-title" itemprop="headline">Python Interpreter</h2>
+          <p class="archive__item-excerpt" itemprop="description">An mcp server Python-based execution tool that mimics a Jupyter notebook environment</p>
+          <p>An mcp server Python-based execution tool that mimics a Jupyter notebook environment. It accepts code snippets, executes them, and maintains state across sessions — preserving variables, imports, and past results. Ideal for iterative development, debugging, or code execution.</p>
+        </div>
+      </article>
+    </a>
   </div>
 </div>
 
