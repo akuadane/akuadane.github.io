@@ -167,15 +167,22 @@
 
     .archive__item-body {
       flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
 
     .archive__item-title {
       margin-top: 0;
+      margin-bottom: 0.5em;
     }
 
     .archive__item-excerpt {
       display: block;
       font-size: $type-size-5;
+      margin-bottom: 1em;
+      font-weight: 600;
+      color: mix(#fff, $text-color, 25%);
     }
   }
 }
