@@ -15,6 +15,7 @@ Outside of class, I like to cook 🍛, drink coffee ☕️, hike ⛰ and run �
 
 
 ## News
+- Jan, 2026 -  [Python Interpreter](https://hub.docker.com/mcp/server/mcp-code-interpreter/overview) MCP project surpassed 6500 downloads. 
 - Sep, 2025 - 🤖 My [Python Interpreter](https://akuadane.github.io/portfolio/python-interpreter/) project went live on Docker. [Merged pull request](https://github.com/docker/mcp-registry/pull/144), [Download it here](https://hub.docker.com/mcp/server/mcp-code-interpreter/overview)
 - Jul, 2025 - 🐧 Contributed to LangChain.js doc website to follow user's computer theme. [Merged pull request](https://github.com/langchain-ai/langchainjs/pull/8466)
 - Aug, 2024 - 📚 Started my MS Data Science at Fordham University.
